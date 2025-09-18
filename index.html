@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- FORM -->
+  <form id="registerForm">
+    <h2>Register</h2>
+    <label>Name:</label><br>
+    <input type="text" id="name"><br>
+    <span id="nameError" class="error"></span><br>
+
+    <label>Email:</label><br>
+    <input type="text" id="email"><br>
+    <span id="emailError" class="error"></span><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password"><br>
+    <span id="passwordError" class="error"></span><br><br>
+
+    <button type="submit">Register</button>
+    <p id="successMsg" class="success"></p>
+  </form>
+
+  <!-- INTERACTIVE FEATURES -->
+  <hr>
+  <h2>Interactive Features</h2>
+
+  <!-- Feature 1: Light/Dark Toggle -->
+  <button id="toggleModeBtn">Toggle Dark Mode</button>
+
+  <!-- Feature 2: Counter -->
+  <p>Count: <span id="countValue">0</span></p>
+  <button id="countBtn">Increase</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
